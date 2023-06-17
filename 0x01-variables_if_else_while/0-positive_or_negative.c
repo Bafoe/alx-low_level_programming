@@ -5,20 +5,20 @@
 */
 int main(void)
 {
-float n = 0;
-printf("Please input any number : \n")
-scanf("%f\n", n)
+int n = 0;
+printf("Please input any number : \n");
+scanf("%f\n", n);
 if (n < 0)
 {
-printf("is negative\n")
+printf("is negative\n");
 }
 else if
 {
-printf("is positive\n")
+printf("is positive\n");
 }
 else
 {
-printf("is zero\n")
+printf("is zero\n");
 }
 }
 return (0);
