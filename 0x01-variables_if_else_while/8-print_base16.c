@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <time.h>
 #include <stdlib.h>
 /**
 *main - A program to print base 16 numbers  using putchar.
@@ -15,6 +16,6 @@ for (i = 'A'; i <= 'F'; i++)
 putchar(i);
 putchar('\n');
 }
-return (0);
 }
+return (0);
 }

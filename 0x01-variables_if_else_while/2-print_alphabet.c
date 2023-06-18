@@ -1,5 +1,6 @@
 #include <stdio.h>
-
+#include <time.h>
+#include <stdlib.h>
 /**
 *main - A program to print lower case alphabet.
 *Return: 0 (success)

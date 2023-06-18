@@ -1,5 +1,6 @@
 #include <stdio.h>
-
+#include <time.h>
+#include <stdlib.h>
 /**
 *main - A program to prints alphbets from z to a using putchar.
 *Return: 0 (success)
@@ -10,7 +11,7 @@ char i;
 for (i = 'z'; i = 'a'; i--)
 {
 putchar(i);
-putchar('\n')
+putchar('\n');
 }
 return (0);
 }

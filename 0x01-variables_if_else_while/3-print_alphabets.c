@@ -1,5 +1,6 @@
 #include <stdio.h>
-
+#include <time.h>
+#include <stdlib.h>
 /**
 *main - A program to print lower and upper case alphabet.
 *Return: 0 (success)
@@ -14,7 +15,7 @@ putchar(low);
 for (low = 'A'; low <= 'Z'; low++)
 {
 putchar(low);
-putchar('\n')
+putchar('\n');
 }
 return (0);
 }

@@ -1,5 +1,6 @@
 #include <stdio.h>
-
+#include <time.h>
+#include <stdlib.h>
 /**
 *main - A program to print lower case  alphabet except e and q.
 *Return: 0 (success)
@@ -16,6 +17,6 @@ if (a != e && a != q)
 putchar(a);
 }
 putchar('\n');
-return (0);
 }
+return (0);
 }

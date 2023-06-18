@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <time.h>
 #include <stdlib.h>
 
 /**
@@ -16,6 +17,6 @@ if (i != '9')
 putchar(',');
 putchar(' ');
 }
-return (0);
 }
+return (0);
 }
