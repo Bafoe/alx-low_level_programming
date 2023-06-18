@@ -7,9 +7,7 @@
 */
 int main(void)
 {
-char a;
-char e;
-char q;
+int a, e, q;
 e = "e";
 q = "q";
 for (a = 'a'; a <= 'z'; a++)
