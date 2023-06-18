@@ -12,9 +12,9 @@ for (n = 0; n <= 9; n++)
 {
 for (i = 'a'; i <= 'f'; i++)
 {
-putchar(n);
 putchar(i);
 }
+putchar(n);
 }
 putchar('\n');
 return (0);
