@@ -1,6 +1,10 @@
 #include "main.h"
-void print_alphabet(void){
-
+/**
+ * main - prints_alphabet in lower case
+ * Return: 0 success
+ */
+void print_alphabet(void)
+{
 char c;
 for (c = 'a'; c <= 'z'; c++)
 {
