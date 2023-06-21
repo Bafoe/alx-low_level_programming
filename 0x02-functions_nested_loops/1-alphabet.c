@@ -1,5 +1,5 @@
 #include "main.h"
-_alphabet(void){
+print_alphabet(void){
 
 	
 char c;
