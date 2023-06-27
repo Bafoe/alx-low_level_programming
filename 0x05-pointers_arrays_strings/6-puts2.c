@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- *void puts2 - Write a function that prints every other character of a string
- *@s : string
- *Return : nothing
+ *puts2 - Write a function that prints every other character of a string
+ *@s : the string to print
+ *Return : void
  */
 void puts2(char *str)
 {
