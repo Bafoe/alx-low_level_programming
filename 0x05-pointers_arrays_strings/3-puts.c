@@ -3,6 +3,7 @@
 
 /**
 * _puts - write a function that prints a string
+* @str : string
 * Return : string
 */
 

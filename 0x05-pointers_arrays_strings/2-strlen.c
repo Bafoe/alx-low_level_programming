@@ -8,15 +8,14 @@
   * Return : lenght
   */
 
-int _strlen(char *s)
+int _strlen(const char *str)
 {
 
 int length = 0;
 
-while (*s != '\0')
+while (*str++)
 {
 length++;
-*s++;
 }
 return (length);
 }
