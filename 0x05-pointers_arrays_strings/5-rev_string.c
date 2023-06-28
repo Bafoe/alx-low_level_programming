@@ -12,11 +12,9 @@ void rev_string(char *s)
 	char tem;
 
 	while (s[index++])
-	{
 
 		len++;
-
-	}
+	
 
 	for (index = len - 1; index >= len; index--)
 	{
@@ -24,6 +22,6 @@ void rev_string(char *s)
 		tem = s[index];
 		s[index] = s[len - index - 1];
 
-		[len - index - 1] = tem;
+		s[len - index - 1] = tem;
 	}
 }
