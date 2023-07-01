@@ -1,5 +1,4 @@
 #include "main.h"
-#include <string.h>
 
 /**
 *_strcat - concantes 2 strings
