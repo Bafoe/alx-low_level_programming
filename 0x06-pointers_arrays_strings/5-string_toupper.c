@@ -1,7 +1,6 @@
 #include "main.h"
-
 /**
- * string_toupper - Changes all lowercase letters of a string to uppercase
+ * string_toupper - Converts all lowercase letters of a string to uppercase
  * @str: Pointer to the string
  *
  * Return: Pointer to the resulting string
@@ -9,6 +8,9 @@
  * Description: The string_toupper function takes a string and converts all
  * lowercase letters in the string to uppercase. It modifies the string
  * in-place and returns a pointer to the modified string.
+ *
+ * FYI: The standard library provides a similar function: toupper.
+ * Run `man toupper` to learn more.
  */
 char *string_toupper(char *str)
 {
@@ -22,6 +24,6 @@ char *string_toupper(char *str)
 		i++;
 	}
 
-	return str;
+	return (str);
 }
 
