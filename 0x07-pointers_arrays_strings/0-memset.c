@@ -1,5 +1,6 @@
-#include <stdio.h>
 #include "main.h"
+
+#include <stdio.h>
 
 /**
  * _memset - Fills the first n bytes of the memory area pointed to by s with
@@ -37,9 +38,10 @@ int main(void)
 	/* Print the contents of memory */
 	for (int i = 0; i < 10; i++)
 	{
-		printf("%c ", filled_memory[i]);
+		putchar(filled_memory[i]);
+		putchar(' ');
 	}
 
-	return (0);
+	return 0;
 }
 
