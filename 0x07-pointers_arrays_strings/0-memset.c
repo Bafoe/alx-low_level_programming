@@ -4,21 +4,21 @@
 
 /**
  * _memset - Fills the first n bytes of the memory area pointed to by s with
- * the constant byte b
- * @s: Pointer to the memory area
- * @b: The constant byte to fill the memory area with
- * @n: Number of bytes to fill
+ *           the constant byte b.
+ * @s: Pointer to the memory area.
+ * @b: The constant byte to fill the memory area with.
+ * @n: Number of bytes to fill.
  *
- * Return: Pointer to the memory area s
+ * Return: Pointer to the memory area s.
  */
-char *_memset(char *s, char b, unsigned int n)
+void *_memset(void *s, int b, size_t n)
 {
-	unsigned int i;
+	unsigned char *ptr = s;
+	unsigned char value = (unsigned char)b;
 
-	for (i = 0; i < n; i++)
-	{
-		s[i] = b;
-	}
+	for (size_t i = 0; i < n; i++)
+		ptr[i] = value;
 
 	return s;
 }
+
