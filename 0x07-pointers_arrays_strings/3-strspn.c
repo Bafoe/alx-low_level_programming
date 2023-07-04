@@ -7,7 +7,8 @@
  * @s: Pointer to the string.
  * @accept: Pointer to the string containing the accepted characters.
  *
- * Return: Number of bytes in the initial segment of s consisting of characters from accept.
+ * Return: Number of bytes in the initial segment of s
+ * consisting of characters from accept.
  */
 unsigned int _strspn(char *s, char *accept)
 {
@@ -17,6 +18,7 @@ unsigned int _strspn(char *s, char *accept)
 	while (*s && found)
 	{
 		char *a = accept;
+
 		found = 0;
 
 		while (*a)
