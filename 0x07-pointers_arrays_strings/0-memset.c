@@ -11,13 +11,12 @@
  *
  * Return: Pointer to the memory area s.
  */
-void *_memset(void *s, int b, size_t n)
+char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned char *ptr = s;
-	unsigned char value = (unsigned char)b;
+	unsigned int i;
 
-	for (size_t i = 0; i < n; i++)
-		ptr[i] = value;
+	for (i = 0; i < n; i++)
+		s[i] = b;
 
 	return s;
 }
