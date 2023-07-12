@@ -10,14 +10,14 @@ char *create_array(unsigned int size, char c);
  * Return : return a char
  */
 
-char *ptArray;
+char *buffer;
 unsigned int count;
-ptArray = malloc(size * sizeof(char));
+buffer = malloc(size * sizeof(char));
 
 count = 0;
 while(count < size)
 {
-	ptArray[count] = c;
+	buffer[count] = c;
 	count++;
 }
-return (ptArray);
+return (buffer);
