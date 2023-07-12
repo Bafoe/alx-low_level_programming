@@ -11,10 +11,9 @@ char *create_array(unsigned int size, char c);
  */
 
 char *ptArray;
-
-ptArray = malloc(unsigned int size * sizeof(char));
-
 unsigned int count;
+ptArray = malloc(size * sizeof(char));
+
 count = 0;
 while(count < size)
 {
