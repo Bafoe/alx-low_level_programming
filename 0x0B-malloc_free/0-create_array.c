@@ -11,6 +11,7 @@
  */
 char *create_array(unsigned int size, char c)
 {
+unsigned int count;
 char *buffer;
 buffer =  malloc(size * sizeof(char));
 if (buffer == NULL)
@@ -18,7 +19,6 @@ if (buffer == NULL)
 /* Memory allocation failed */
 return (NULL);
 }
-unsigned int count;
 count = 0;
 while (count < size)
 {
