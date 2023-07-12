@@ -1,9 +1,10 @@
 #include "main.h"
 #include <stdlib.h>
 #include <stdio.h>
-char *create_array(unsigned int size, char c);
+char *create_array(unsigned int size, char c)
+{
 /*
- * creat_array - this function creats an array of char 
+ * create_array - this function creats an array of char
  * and initialize it to specific bar
  * @size : size of charater
  * @c : string
@@ -15,9 +16,10 @@ unsigned int count;
 buffer = malloc(size * sizeof(char));
 
 count = 0;
-while(count < size)
+while (count < size)
 {
 	buffer[count] = c;
 	count++;
 }
 return (buffer);
+}
