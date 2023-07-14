@@ -4,7 +4,7 @@
 /**
  * _realloc - this is a function
  * @ptr: input
- * @old_size: input 
+ * @old_size: input
  * @new_size: input
  * Return: nothing
  */
