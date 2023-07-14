@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * *string_noncat - this function concat strings
+ * *string_nconcat - this function concat strings
  * @s1: it is locate in the new allocated memoey
  * @s2: another input
  * @n: number alocated
@@ -23,7 +23,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	while (s2[k])
 		k++;
 	if (n >= k)
-	       l = i + k;
+		l = i + k;
 	else
 		l = i + n;
 	str = malloc(sizeof(char) * l + 1);
