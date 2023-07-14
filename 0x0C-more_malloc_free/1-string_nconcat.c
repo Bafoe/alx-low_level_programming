@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdio.h>
-
+#include <stdlib.h>
 /**
  * *string_nconcat - this function concat strings
  * @s1: it is locate in the new allocated memoey
